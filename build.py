@@ -797,7 +797,7 @@ contact_body = f'''
       <span class="eyebrow">Reach Us</span>
       <h2 style="margin-bottom:1rem">We reply quickly</h2>
       <ul class="contact-list">
-        <li><span class="c-icon">☎</span><div><h3>Phone</h3><p><a href="tel:{PHONE.replace(' ','')}">{PHONE}</a> <em>(placeholder — update)</em></p></div></li>
+        <li><span class="c-icon">☎</span><div><h3>Phone</h3><p><a href="tel:{PHONE.replace(' ','')}">{0788750184}</a> <em>(lily — update)</em></p></div></li>
         <li><span class="c-icon">✆</span><div><h3>WhatsApp</h3><p><a href="https://wa.me/{WA}" target="_blank" rel="noopener">Message us on WhatsApp</a></p></div></li>
         <li><span class="c-icon">✉</span><div><h3>Email</h3><p><a href="mailto:{EMAIL}">{EMAIL}</a> <em>(placeholder — update)</em></p></div></li>
         <li><span class="c-icon">◆</span><div><h3>Address</h3><p>Kimironko, Gasabo District, Kigali, Rwanda</p></div></li>
