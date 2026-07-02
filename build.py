@@ -2,7 +2,7 @@
 """Build script: assembles CFT website pages from a shared shell."""
 import os
 
-OUT = "/home/claude/cft"
+OUT = os.path.dirname(os.path.abspath(__file__))
 WA = "250788000000"  # TODO: replace with real WhatsApp number
 PHONE = "+250 788 000 000"  # TODO: replace with real phone
 EMAIL = "info@cftapartments.rw"  # TODO: replace with real email
@@ -112,7 +112,7 @@ def shell(title, desc, active, body):
 </html>'''
 
 def write(name, html):
-    with open(os.path.join(OUT, name), "w") as f:
+    with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
         f.write(html)
     print("wrote", name)
 
