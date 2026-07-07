@@ -38,3 +38,7 @@ Before publishing, replace the placeholder contact details in `build.py` (WhatsA
 ## Deployment
 
 This is a static site — any static host (GitHub Pages, Netlify, Vercel, etc.) can serve it directly from the repository root.
+
+## Final Weblink
+
+https://mosescy7.github.io/cft_managment/index.html
