@@ -3,9 +3,11 @@
 import os
 
 OUT = os.path.dirname(os.path.abspath(__file__))
-WA = "250788000000"  # TODO: replace with real WhatsApp number
-PHONE = "+250 788 000 000"  # TODO: replace with real phone
-EMAIL = "info@cftapartments.rw"  # TODO: replace with real email
+WA = "250788750184"
+PHONE = "+250 788 750 184"
+EMAIL = "cftrading26@gmail.com"
+ADDRESS_LINE1 = "6-12 KG 150 St"
+ADDRESS_LINE2 = "Kimironko, Gasabo District, Kigali, Rwanda"
 AIRBNB1 = "https://www.airbnb.com/rooms/1710869845463366565"
 AIRBNB2 = "https://www.airbnb.com/rooms/14240039"
 MAP = ("https://maps.google.com/maps?q=Kimironko%2C%20Kigali%2C%20Rwanda&t=&z=15&ie=UTF8&iwloc=&output=embed")
@@ -177,7 +179,7 @@ home_body = f'''
       </article>
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/bedroom-main.jpg" alt="Bedroom of the Kimironko residence apartment" loading="lazy"></div>
+          <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
         <div class="prop-body">
           <h3>Kimironko Garden Residence</h3>
           <div class="prop-stats"><span class="stat">4 guests</span><span class="stat">2 bedrooms</span><span class="stat">2 beds</span><span class="stat">2 baths</span></div>
@@ -274,12 +276,12 @@ apts_body = f'''
 
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/bedroom-main.jpg" alt="Bedroom of the Kimironko Garden Residence" loading="lazy"></div>
+          <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
         <div class="prop-body">
           <h3>Kimironko Garden Residence</h3>
           <div class="prop-stats"><span class="stat">4 guests</span><span class="stat">2 bedrooms</span><span class="stat">2 beds</span><span class="stat">2 baths</span></div>
           <p>A calm, comfortable apartment in the heart of Kimironko — quality furnishings, an equipped kitchen and green surroundings, minutes from the famous Kimironko Market.</p>
-          <div class="placeholder-note">Details shown are placeholders — the linked Airbnb listing is currently unavailable. Update this card with the confirmed description, capacity and photos.</div>
+          <div class="placeholder-note">Description and capacity shown are placeholders — the linked Airbnb listing is currently unavailable. Update this card with the confirmed details.</div>
           <div class="prop-actions">
             <a class="btn btn-green" href="apartment-kimironko.html">Availability &amp; Details</a>
             <a class="btn btn-gold" href="booking.html">Book Now</a>
@@ -423,7 +425,7 @@ write("apartment-vision-city.html", shell(
 km_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/bedroom-main.jpg" alt="Kimironko Garden Residence bedroom">
+  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Kimironko · Kigali</span>
@@ -439,14 +441,17 @@ km_body = f'''
       <div class="reveal">
         <span class="eyebrow">Overview</span>
         <h2>Quiet comfort, steps from Kimironko's best</h2>
-        <div class="placeholder-note">The Airbnb listing for this apartment (rooms/14240039) is currently unavailable, so the description, capacity and photos below are placeholders. Replace them with confirmed details when ready.</div>
+        <div class="placeholder-note">The Airbnb listing for this apartment (rooms/14240039) is currently unavailable, so the description and capacity below are placeholders — the photos are from the actual apartment. Replace the remaining details when confirmed.</div>
         <p class="lead" style="margin-top:1rem">A warm two-bedroom apartment with quality furnishings, a fully equipped kitchen and leafy views — ideal for families, couples and long-stay professionals who want to live in one of Kigali's most convenient neighbourhoods.</p>
       </div>
 
       <div class="gallery-grid" style="margin-top:2.4rem">
-        <figure class="g-item reveal" data-lightbox data-caption="Bedroom"><img src="images/bedroom-main.jpg" alt="Bedroom with upholstered headboard" loading="lazy"><figcaption>Bedroom</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Wardrobes and vanity"><img src="images/bedroom-wardrobe.jpg" alt="Fitted wardrobes and vanity" loading="lazy"><figcaption>Wardrobes</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Balcony"><img src="images/balcony.jpg" alt="Private balcony" loading="lazy"><figcaption>Balcony</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Bedroom"><img src="images/kimironko-bedroom.avif" alt="Bedroom with single bed" loading="lazy"><figcaption>Bedroom</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Kitchen and living area"><img src="images/kimironko-kitchen-living-1.jpg" alt="Kitchen and living area" loading="lazy"><figcaption>Kitchen &amp; living room</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Kitchen and living area"><img src="images/kimironko-kitchen-living-2.jpg" alt="Kitchen and living area, alternate view" loading="lazy"><figcaption>Kitchen &amp; living room</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Hallway and wardrobes"><img src="images/kimironko-hallway-wardrobe.avif" alt="Hallway with fitted wardrobes" loading="lazy"><figcaption>Hallway &amp; wardrobes</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Bathroom"><img src="images/kimironko-bathroom.avif" alt="Bathroom with shower" loading="lazy"><figcaption>Bathroom</figcaption></figure>
       </div>
 
       <div class="reveal" style="margin-top:3rem">
@@ -797,10 +802,10 @@ contact_body = f'''
       <span class="eyebrow">Reach Us</span>
       <h2 style="margin-bottom:1rem">We reply quickly</h2>
       <ul class="contact-list">
-        <li><span class="c-icon">☎</span><div><h3>Phone</h3><p><a href="tel:{PHONE.replace(' ','')}">{0788750184}</a> <em>(lily — update)</em></p></div></li>
+        <li><span class="c-icon">☎</span><div><h3>Phone</h3><p><a href="tel:{PHONE.replace(' ','')}">{PHONE}</a></p></div></li>
         <li><span class="c-icon">✆</span><div><h3>WhatsApp</h3><p><a href="https://wa.me/{WA}" target="_blank" rel="noopener">Message us on WhatsApp</a></p></div></li>
-        <li><span class="c-icon">✉</span><div><h3>Email</h3><p><a href="mailto:{EMAIL}">{EMAIL}</a> <em>(placeholder — update)</em></p></div></li>
-        <li><span class="c-icon">◆</span><div><h3>Address</h3><p>Kimironko, Gasabo District, Kigali, Rwanda</p></div></li>
+        <li><span class="c-icon">✉</span><div><h3>Email</h3><p><a href="mailto:{EMAIL}">{EMAIL}</a></p></div></li>
+        <li><span class="c-icon">◆</span><div><h3>Address</h3><p>{ADDRESS_LINE1}<br>{ADDRESS_LINE2}</p></div></li>
         <li><span class="c-icon">🕘</span><div><h3>Business Hours</h3><p>Monday – Saturday: 8:00 AM – 7:00 PM<br>Sunday: 10:00 AM – 5:00 PM<br>Guest support: 24/7 on WhatsApp</p></div></li>
       </ul>
       <div class="socials">
