@@ -4,7 +4,7 @@ import os
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 WA = "250788750184"
-PHONE = "+250 788 750 184"
+PHONE = "+250 788 750 184 and +250 792 757 653"
 EMAIL = "cftrading26@gmail.com"
 ADDRESS_LINE1 = "35a KG 37 Avenue"
 ADDRESS_LINE2 = "Kimironko, Gasabo District, Kigali, Rwanda"
