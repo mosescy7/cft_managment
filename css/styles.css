@@ -70,9 +70,9 @@ p.lead{font-size:1.18rem;color:var(--ink-60);max-width:62ch}
 .brand{display:flex;align-items:center;gap:.8rem;color:var(--white)}
 .brand-mark{
   width:46px;height:46px;border:1px solid var(--gold);border-radius:50%;
-  display:grid;place-items:center;font-family:var(--font-display);
-  font-size:1.02rem;color:var(--gold-soft);letter-spacing:.04em;flex:none;
+  display:grid;place-items:center;flex:none;
 }
+.brand-mark img{width:28px;height:auto;display:block}
 .brand-name{font-family:var(--font-display);font-size:1.18rem;line-height:1.1}
 .brand-name small{display:block;font-family:var(--font-body);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-soft);margin-top:.2rem}
 .main-nav ul{display:flex;align-items:center;gap:1.7rem}

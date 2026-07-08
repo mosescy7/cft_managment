@@ -20,7 +20,7 @@ def header(active):
     return f'''<header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="CFT Apartments and Shops home">
-      <span class="brand-mark">CFT</span>
+      <span class="brand-mark"><img src="images/cft-icon.png" alt="CFT"></span>
       <span class="brand-name">Apartments &amp; Shops<small>Cyabukombe Family Trading</small></span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
@@ -43,7 +43,7 @@ FOOTER = f'''<footer class="site-footer">
     <div class="footer-grid">
       <div>
         <a class="brand" href="index.html" style="margin-bottom:1rem">
-          <span class="brand-mark">CFT</span>
+          <span class="brand-mark"><img src="images/cft-icon.png" alt="CFT"></span>
           <span class="brand-name">Apartments &amp; Shops<small>Cyabukombe Family Trading</small></span>
         </a>
         <p style="font-size:.94rem;max-width:32ch;margin-top:1rem">Luxury furnished apartments and quality commercial spaces in Kimironko, Kigali, Rwanda.</p>
