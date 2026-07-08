@@ -102,7 +102,7 @@ def shell(title, desc, active, body):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="images/building-exterior.jpg">
+<meta property="og:image" content="images/cft-building-night.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -122,7 +122,7 @@ def write(name, html):
 home_body = f'''
 <main>
 <section class="hero" style="padding:0">
-  <img class="hero-bg" src="images/building-exterior.jpg" alt="CFT apartment building in Kimironko, Kigali" fetchpriority="high">
+  <img class="hero-bg" src="images/cft-building-night.jpg" alt="CFT Offices, Shops & Apartments building at night" fetchpriority="high">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Murakaza Neza · Welcome</span>
@@ -786,7 +786,7 @@ write("booking.html", shell(
 contact_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/living-room-1.jpg" alt="Welcoming living room at CFT Apartments">
+  <img class="hero-bg" src="images/cft-brand-collage.jpg" alt="CFT Offices, Shops & Apartments — comfort, quality, convenience">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Get in Touch</span>
