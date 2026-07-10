@@ -188,6 +188,9 @@ section.tight{padding:3.5rem 0}
 .form-success{display:none;background:var(--sand);border:1px solid var(--gold);border-radius:var(--radius-sm);
   padding:1.4rem 1.6rem;margin-top:1.4rem;color:var(--green);font-size:1.02rem}
 .form-success.visible{display:block}
+.form-error{display:none;background:#FDEDEC;border:1px solid #C0392B;border-radius:var(--radius-sm);
+  padding:1.4rem 1.6rem;margin-top:1.4rem;color:#C0392B;font-size:1.02rem}
+.form-error.visible{display:block}
 
 /* Testimonials */
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem}

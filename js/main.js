@@ -65,9 +65,26 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', e => {
       e.preventDefault();
       if (!form.checkValidity()) { form.reportValidity(); return; }
-      form.querySelectorAll('input,select,textarea,button').forEach(el => el.disabled = true);
+      const fields = form.querySelectorAll('input,select,textarea,button');
+      fields.forEach(el => el.disabled = true);
       const ok = form.parentElement.querySelector('.form-success');
-      if (ok) { ok.classList.add('visible'); ok.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      const err = form.parentElement.querySelector('.form-error');
+      if (err) err.classList.remove('visible');
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(res => {
+        if (res.ok) {
+          if (ok) { ok.classList.add('visible'); ok.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+        } else {
+          throw new Error('Submission failed');
+        }
+      }).catch(() => {
+        fields.forEach(el => el.disabled = false);
+        if (err) { err.classList.add('visible'); err.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      });
     });
   });
 

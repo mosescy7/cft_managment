@@ -122,7 +122,8 @@
   <div class="wrap" style="max-width:820px">
     <div class="section-head center reveal"><span class="eyebrow center">Inquiry</span><h2>Ask about this apartment</h2></div>
     <div class="form-card reveal">
-      <form data-inquiry novalidate>
+      <form data-inquiry novalidate action="https://formspree.io/f/xlgyqwdg" method="POST">
+        <input type="hidden" name="_subject" value="CFT website inquiry — Vision City apartment">
         <div class="form-grid">
           <div class="field"><label for="v-name">Full Name</label><input id="v-name" name="name" type="text" required autocomplete="name"></div>
           <div class="field"><label for="v-phone">Phone / WhatsApp</label><input id="v-phone" name="phone" type="tel" required autocomplete="tel"></div>
@@ -135,6 +136,7 @@
         <button class="btn btn-green" type="submit" style="margin-top:1.4rem">Send Inquiry</button>
       </form>
       <div class="form-success" role="status">Thank you for contacting CFT Apartments &amp; Shops. Your inquiry has been received. Our team will contact you shortly.</div>
+      <div class="form-error" role="alert">Sorry, something went wrong sending your message. Please try again, or reach us directly on WhatsApp.</div>
     </div>
   </div>
 </section>
