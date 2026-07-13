@@ -10,6 +10,7 @@ ADDRESS_LINE1 = "35a KG 37 Avenue"
 ADDRESS_LINE2 = "Kimironko, Gasabo District, Kigali, Rwanda"
 AIRBNB1 = "https://www.airbnb.com/rooms/1710869845463366565"
 AIRBNB2 = "https://www.airbnb.com/rooms/14240039"
+AIRBNB3 = "https://www.airbnb.com/rooms/1341268755139378216"
 MAP = ("https://maps.google.com/maps?q=-1.945522,30.1362201&t=&z=16&ie=UTF8&iwloc=&output=embed")
 FORMSPREE = "https://formspree.io/f/xlgyqwdg"
 
@@ -167,7 +168,7 @@ home_body = f'''
     <div class="prop-grid">
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Vision City</span>
-          <img src="images/living-room-2.jpg" alt="Living room of the Luxury 3BR apartment in Vision City" loading="lazy"></div>
+          <img src="images/Vision/living-room-2.jpg" alt="Living room of the Luxury 3BR apartment in Vision City" loading="lazy"></div>
         <div class="prop-body">
           <h3>Luxury 3BR in Vision City</h3>
           <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
@@ -183,11 +184,24 @@ home_body = f'''
           <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
         <div class="prop-body">
           <h3>Kimironko Garden Residence</h3>
-          <div class="prop-stats"><span class="stat">4 guests</span><span class="stat">2 bedrooms</span><span class="stat">2 beds</span><span class="stat">2 baths</span></div>
-          <p>A warm, quiet apartment steps from Kimironko's markets and cafés — comfortable furnishings, equipped kitchen and secure parking.</p>
+          <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
+          <p>A warm, quiet one-bedroom apartment steps from Kimironko's markets and cafés — comfortable furnishings, equipped kitchen and balcony.</p>
           <div class="prop-actions">
             <a class="btn btn-green" href="apartment-kimironko.html">View Apartment</a>
             <a class="btn btn-ghost" href="{AIRBNB2}" target="_blank" rel="noopener">View on Airbnb</a>
+          </div>
+        </div>
+      </article>
+      <article class="prop-card reveal">
+        <div class="prop-media"><span class="badge">Kimironko</span>
+          <img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"></div>
+        <div class="prop-body">
+          <h3>Inganji Apartment</h3>
+          <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
+          <p>A cosy, fully furnished one-bedroom apartment in Kimironko — living room, equipped kitchen and private balcony.</p>
+          <div class="prop-actions">
+            <a class="btn btn-green" href="apartment-inganji.html">View Apartment</a>
+            <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener">View on Airbnb</a>
           </div>
         </div>
       </article>
@@ -197,7 +211,7 @@ home_body = f'''
 
 <section>
   <div class="wrap split">
-    <div class="img-frame reveal"><img src="images/vision-city-aerial.jpg" alt="Aerial view of the Vision City estate in Kigali" loading="lazy"></div>
+    <div class="img-frame reveal"><img src="images/Vision/vision-city-aerial.jpg" alt="Aerial view of the Vision City estate in Kigali" loading="lazy"></div>
     <div class="reveal">
       <span class="eyebrow">Commercial Spaces</span>
       <h2>Grow your business at CFT</h2>
@@ -244,7 +258,7 @@ write("index.html", shell(
 apts_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/living-room-1.jpg" alt="Furnished living room at CFT Apartments">
+  <img class="hero-bg" src="images/Vision/living-room-1.jpg" alt="Furnished living room at CFT Apartments">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Our Residences</span>
@@ -259,7 +273,7 @@ apts_body = f'''
     <div class="prop-grid">
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Vision City · New</span>
-          <img src="images/living-room-2.jpg" alt="Living room of Luxury 3BR in Vision City" loading="lazy"></div>
+          <img src="images/Vision/living-room-2.jpg" alt="Living room of Luxury 3BR in Vision City" loading="lazy"></div>
         <div class="prop-body">
           <h3>Luxury 3BR in Vision City</h3>
           <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
@@ -280,13 +294,27 @@ apts_body = f'''
           <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
         <div class="prop-body">
           <h3>Kimironko Garden Residence</h3>
-          <div class="prop-stats"><span class="stat">4 guests</span><span class="stat">2 bedrooms</span><span class="stat">2 beds</span><span class="stat">2 baths</span></div>
-          <p>A calm, comfortable apartment in the heart of Kimironko — quality furnishings, an equipped kitchen and green surroundings, minutes from the famous Kimironko Market.</p>
-          <div class="placeholder-note">Description and capacity shown are placeholders — the linked Airbnb listing is currently unavailable. Update this card with the confirmed details.</div>
+          <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
+          <p>A calm, comfortable one-bedroom apartment in the heart of Kimironko — quality furnishings, an equipped kitchen, living room and balcony, minutes from the famous Kimironko Market.</p>
           <div class="prop-actions">
             <a class="btn btn-green" href="apartment-kimironko.html">Availability &amp; Details</a>
             <a class="btn btn-gold" href="booking.html">Book Now</a>
             <a class="btn btn-ghost" href="{AIRBNB2}" target="_blank" rel="noopener">View on Airbnb</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop-card reveal">
+        <div class="prop-media"><span class="badge">Kimironko</span>
+          <img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"></div>
+        <div class="prop-body">
+          <h3>Inganji Apartment</h3>
+          <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
+          <p>A cosy, fully furnished one-bedroom apartment in Kimironko — living room, equipped kitchen and private balcony.</p>
+          <div class="prop-actions">
+            <a class="btn btn-green" href="apartment-inganji.html">Availability &amp; Details</a>
+            <a class="btn btn-gold" href="booking.html">Book Now</a>
+            <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener">View on Airbnb</a>
           </div>
         </div>
       </article>
@@ -298,9 +326,9 @@ apts_body = f'''
   <div class="wrap">
     <div class="section-head reveal"><span class="eyebrow">A Closer Look</span><h2>Inside the apartments</h2></div>
     <div class="gallery-grid">
-      <figure class="g-item reveal" data-lightbox data-caption="Living room"><img src="images/living-room-1.jpg" alt="Living room with balcony view" loading="lazy"><figcaption>Living room</figcaption></figure>
-      <figure class="g-item reveal" data-lightbox data-caption="Master bedroom"><img src="images/bedroom-main.jpg" alt="Master bedroom with king bed" loading="lazy"><figcaption>Master bedroom</figcaption></figure>
-      <figure class="g-item reveal" data-lightbox data-caption="Private balcony"><img src="images/balcony.jpg" alt="Private balcony with garden view" loading="lazy"><figcaption>Private balcony</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Living room"><img src="images/Vision/living-room-1.jpg" alt="Living room with balcony view" loading="lazy"><figcaption>Living room</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Master bedroom"><img src="images/Vision/bedroom-main.jpg" alt="Master bedroom with king bed" loading="lazy"><figcaption>Master bedroom</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Private balcony"><img src="images/Vision/balcony.jpg" alt="Private balcony with garden view" loading="lazy"><figcaption>Private balcony</figcaption></figure>
     </div>
   </div>
 </section>
@@ -314,7 +342,7 @@ write("apartments.html", shell(
 vc_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/living-room-2.jpg" alt="Luxury 3BR apartment in Vision City, Kigali">
+  <img class="hero-bg" src="images/Vision/living-room-2.jpg" alt="Luxury 3BR apartment in Vision City, Kigali">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Vision City · Kigali</span>
@@ -334,12 +362,12 @@ vc_body = f'''
       </div>
 
       <div class="gallery-grid" style="margin-top:2.4rem">
-        <figure class="g-item reveal" data-lightbox data-caption="Living room"><img src="images/living-room-1.jpg" alt="Living room seating area" loading="lazy"><figcaption>Living room</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Living room and TV wall"><img src="images/living-room-2.jpg" alt="Living room with television unit" loading="lazy"><figcaption>TV lounge</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Bedroom 1 — king bed"><img src="images/bedroom-main.jpg" alt="Bedroom with king bed" loading="lazy"><figcaption>Bedroom 1 · King</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Wardrobes and vanity"><img src="images/bedroom-wardrobe.jpg" alt="Bedroom wardrobes and dressing table" loading="lazy"><figcaption>Wardrobes</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Private balcony"><img src="images/balcony.jpg" alt="Private balcony" loading="lazy"><figcaption>Balcony</figcaption></figure>
-        <figure class="g-item reveal" data-lightbox data-caption="Washer and dryer"><img src="images/washer-dryer.jpg" alt="Washer and dryer" loading="lazy"><figcaption>Washer &amp; dryer</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Living room"><img src="images/Vision/living-room-1.jpg" alt="Living room seating area" loading="lazy"><figcaption>Living room</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Living room and TV wall"><img src="images/Vision/living-room-2.jpg" alt="Living room with television unit" loading="lazy"><figcaption>TV lounge</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Bedroom 1 — king bed"><img src="images/Vision/bedroom-main.jpg" alt="Bedroom with king bed" loading="lazy"><figcaption>Bedroom 1 · King</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Wardrobes and vanity"><img src="images/Vision/bedroom-wardrobe.jpg" alt="Bedroom wardrobes and dressing table" loading="lazy"><figcaption>Wardrobes</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Private balcony"><img src="images/Vision/balcony.jpg" alt="Private balcony" loading="lazy"><figcaption>Balcony</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Washer and dryer"><img src="images/Vision/washer-dryer.jpg" alt="Washer and dryer" loading="lazy"><figcaption>Washer &amp; dryer</figcaption></figure>
       </div>
 
       <div class="reveal" style="margin-top:3rem">
@@ -444,8 +472,7 @@ km_body = f'''
       <div class="reveal">
         <span class="eyebrow">Overview</span>
         <h2>Quiet comfort, steps from Kimironko's best</h2>
-        <div class="placeholder-note">The Airbnb listing for this apartment (rooms/14240039) is currently unavailable, so the description and capacity below are placeholders — the photos are from the actual apartment. Replace the remaining details when confirmed.</div>
-        <p class="lead" style="margin-top:1rem">A warm two-bedroom apartment with quality furnishings, a fully equipped kitchen and leafy views — ideal for families, couples and long-stay professionals who want to live in one of Kigali's most convenient neighbourhoods.</p>
+        <p class="lead" style="margin-top:1rem">A warm one-bedroom apartment with quality furnishings, a living room, fully equipped kitchen and balcony — ideal for couples and long-stay professionals who want to live in one of Kigali's most convenient neighbourhoods.</p>
       </div>
 
       <div class="gallery-grid" style="margin-top:2.4rem">
@@ -492,10 +519,10 @@ km_body = f'''
     <aside class="info-card reveal">
       <h3>At a glance</h3>
       <ul class="info-list">
-        <li><span>Guests</span><span>Up to 4</span></li>
-        <li><span>Bedrooms</span><span>2</span></li>
-        <li><span>Beds</span><span>2</span></li>
-        <li><span>Bathrooms</span><span>2</span></li>
+        <li><span>Guests</span><span>Up to 2</span></li>
+        <li><span>Bedrooms</span><span>1</span></li>
+        <li><span>Beds</span><span>1</span></li>
+        <li><span>Bathrooms</span><span>1</span></li>
         <li><span>Check-in</span><span>After 3:00 PM</span></li>
         <li><span>Parking</span><span>Free on premises</span></li>
       </ul>
@@ -533,14 +560,123 @@ km_body = f'''
 </main>'''
 write("apartment-kimironko.html", shell(
   "Kimironko Garden Residence | CFT Apartments & Shops",
-  "Furnished two-bedroom apartment in Kimironko, Kigali — quiet, secure and minutes from Kimironko Market. Book directly with CFT.",
+  "Furnished one-bedroom apartment in Kimironko, Kigali — quiet, secure and minutes from Kimironko Market. Book directly with CFT.",
   "apartments", km_body))
+
+# ---------------------------------------------------------------- APARTMENT DETAIL: INGANJI
+ig_body = f'''
+<main>
+<section class="hero compact" style="padding:0">
+  <img class="hero-bg" src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building">
+  <div class="wrap hero-inner">
+    <div class="frame">
+      <span class="eyebrow on-dark">Kimironko · Kigali</span>
+      <h1 class="page-hero-title">Inganji Apartment</h1>
+      <p class="page-hero-sub">A cosy, fully furnished one-bedroom home in Kimironko.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap detail-grid">
+    <div>
+      <div class="reveal">
+        <span class="eyebrow">Overview</span>
+        <h2>Simple, comfortable and well located</h2>
+        <p class="lead" style="margin-top:1rem">A furnished one-bedroom apartment with its own living room, equipped kitchen and private balcony — a practical, comfortable base for a couple or solo traveller staying in Kimironko.</p>
+      </div>
+
+      <div class="gallery-grid" style="margin-top:2.4rem">
+        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Living room and kitchen"><img src="images/inganji-living-kitchen.jpg" alt="Furnished living room with open kitchen" loading="lazy"><figcaption>Living room &amp; kitchen</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Bedroom"><img src="images/inganji-bedroom.avif" alt="Bedroom with double bed" loading="lazy"><figcaption>Bedroom</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Kitchen"><img src="images/inganji-kitchen.jpg" alt="Kitchen with stove and cabinets" loading="lazy"><figcaption>Kitchen</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Bathroom"><img src="images/inganji-bathroom.avif" alt="Bathroom with shower and tub" loading="lazy"><figcaption>Bathroom</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Wardrobe and dining nook"><img src="images/inganji-dining-nook.jpg" alt="Wardrobe and small dining nook" loading="lazy"><figcaption>Wardrobe &amp; dining nook</figcaption></figure>
+      </div>
+
+      <div class="reveal" style="margin-top:3rem">
+        <span class="eyebrow">Amenities</span>
+        <h2 style="font-size:1.7rem;margin-bottom:1.4rem">What this place offers</h2>
+        <ul class="amenity-grid">
+          <li>Equipped kitchen</li><li>Smart TV</li><li>Balcony</li>
+          <li>Fitted wardrobe</li><li>Furnished living room</li><li>Housekeeping (optional)</li>
+        </ul>
+      </div>
+
+      <div class="reveal" style="margin-top:3rem">
+        <span class="eyebrow">House Rules</span>
+        <h2 style="font-size:1.7rem;margin-bottom:1rem">Things to know</h2>
+        <ul class="rule-list">
+          <li>Check-in after 3:00 PM</li>
+          <li>No pets</li>
+          <li>Quiet hours after 10:00 PM</li>
+        </ul>
+      </div>
+
+      <div class="reveal" style="margin-top:3rem">
+        <span class="eyebrow">Location</span>
+        <h2 style="font-size:1.7rem;margin-bottom:1.4rem">Where you'll be</h2>
+        <div class="map-embed"><iframe src="{MAP}" title="Map of Kimironko, Kigali" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <ul class="rule-list" style="margin-top:1.4rem">
+          <li>Kimironko Market — a five-minute walk</li>
+          <li>Local cafés, banks and supermarkets nearby</li>
+          <li>Direct routes to the city centre and airport</li>
+        </ul>
+      </div>
+    </div>
+
+    <aside class="info-card reveal">
+      <h3>At a glance</h3>
+      <ul class="info-list">
+        <li><span>Guests</span><span>Up to 2</span></li>
+        <li><span>Bedrooms</span><span>1</span></li>
+        <li><span>Beds</span><span>1</span></li>
+        <li><span>Bathrooms</span><span>1</span></li>
+        <li><span>Check-in</span><span>After 3:00 PM</span></li>
+      </ul>
+      <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
+        <a class="btn btn-gold" href="booking.html" style="justify-content:center">Book Now</a>
+        <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener" style="justify-content:center">View on Airbnb</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20the%20Inganji%20Apartment." target="_blank" rel="noopener" style="justify-content:center">WhatsApp Inquiry</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="bg-sand">
+  <div class="wrap" style="max-width:820px">
+    <div class="section-head center reveal"><span class="eyebrow center">Inquiry</span><h2>Ask about this apartment</h2></div>
+    <div class="form-card reveal">
+      <form data-inquiry novalidate action="{FORMSPREE}" method="POST">
+        <input type="hidden" name="_subject" value="CFT website inquiry — Inganji Apartment">
+        <div class="form-grid">
+          <div class="field"><label for="ig-name">Full Name</label><input id="ig-name" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="ig-phone">Phone / WhatsApp</label><input id="ig-phone" name="phone" type="tel" required autocomplete="tel"></div>
+          <div class="field"><label for="ig-email">Email</label><input id="ig-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="ig-guests">Guests</label><select id="ig-guests" name="guests"><option>1</option><option>2</option></select></div>
+          <div class="field"><label for="ig-in">Check-in</label><input id="ig-in" name="checkin" type="date" required></div>
+          <div class="field"><label for="ig-out">Check-out</label><input id="ig-out" name="checkout" type="date" required></div>
+          <div class="field full"><label for="ig-msg">Message</label><textarea id="ig-msg" name="message" rows="4" placeholder="Tell us about your stay…"></textarea></div>
+        </div>
+        <button class="btn btn-green" type="submit" style="margin-top:1.4rem">Send Inquiry</button>
+      </form>
+      <div class="form-success" role="status">Thank you for contacting CFT Apartments &amp; Shops. Your inquiry has been received. Our team will contact you shortly.</div>
+      <div class="form-error" role="alert">Sorry, something went wrong sending your message. Please try again, or reach us directly on WhatsApp.</div>
+    </div>
+  </div>
+</section>
+</main>'''
+write("apartment-inganji.html", shell(
+  "Inganji Apartment | CFT Apartments & Shops",
+  "Furnished one-bedroom apartment in Kimironko, Kigali — living room, equipped kitchen and balcony. Book directly with CFT.",
+  "apartments", ig_body))
 
 # ---------------------------------------------------------------- SHOPS
 shops_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/building-exterior.jpg" alt="CFT mixed-use building with commercial spaces">
+  <img class="hero-bg" src="images/Vision/building-exterior.jpg" alt="CFT mixed-use building with commercial spaces">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Commercial Property</span>
@@ -563,7 +699,7 @@ shops_body = f'''
         <li>Salons &amp; wellness</li><li>Financial services</li>
       </ul>
     </div>
-    <div class="img-frame reveal"><img src="images/building-exterior.jpg" alt="Building exterior with commercial frontage" loading="lazy"></div>
+    <div class="img-frame reveal"><img src="images/Vision/building-exterior.jpg" alt="Building exterior with commercial frontage" loading="lazy"></div>
   </div>
 </section>
 
@@ -573,7 +709,7 @@ shops_body = f'''
     <div class="prop-grid">
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Available</span>
-          <img src="images/building-exterior.jpg" alt="Commercial shop unit A" loading="lazy"></div>
+          <img src="images/Vision/building-exterior.jpg" alt="Commercial shop unit A" loading="lazy"></div>
         <div class="prop-body">
           <h3>Shop Unit A — Ground Floor</h3>
           <div class="prop-stats"><span class="stat">± 45 m²</span><span class="stat">Street facing</span><span class="stat">Parking</span></div>
@@ -586,7 +722,7 @@ shops_body = f'''
       </article>
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Coming Soon</span>
-          <img src="images/vision-city-aerial.jpg" alt="Commercial shop unit B" loading="lazy"></div>
+          <img src="images/Vision/vision-city-aerial.jpg" alt="Commercial shop unit B" loading="lazy"></div>
         <div class="prop-body">
           <h3>Shop Unit B — Ground Floor</h3>
           <div class="prop-stats"><span class="stat">± 30 m²</span><span class="stat">Interior unit</span><span class="stat">Parking</span></div>
@@ -623,7 +759,7 @@ write("shops.html", shell(
 gal_body = '''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/balcony.jpg" alt="Balcony view at CFT Apartments">
+  <img class="hero-bg" src="images/Vision/balcony.jpg" alt="Balcony view at CFT Apartments">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">A Look Inside</span>
@@ -645,15 +781,15 @@ gal_body = '''
       <button data-filter="commercial">Commercial Area</button>
     </div>
     <div class="gallery-grid">
-      <figure class="g-item reveal" data-cat="living" data-lightbox data-caption="Living room with balcony access"><img src="images/living-room-1.jpg" alt="Living room with balcony access" loading="lazy"><figcaption>Living room</figcaption></figure>
-      <figure class="g-item reveal" data-cat="living" data-lightbox data-caption="Living room and entertainment wall"><img src="images/living-room-2.jpg" alt="Living room with entertainment unit" loading="lazy"><figcaption>Living room</figcaption></figure>
-      <figure class="g-item reveal" data-cat="bedroom" data-lightbox data-caption="Master bedroom"><img src="images/bedroom-main.jpg" alt="Master bedroom" loading="lazy"><figcaption>Bedroom</figcaption></figure>
-      <figure class="g-item reveal" data-cat="bedroom" data-lightbox data-caption="Fitted wardrobes and vanity"><img src="images/bedroom-wardrobe.jpg" alt="Fitted wardrobes and vanity" loading="lazy"><figcaption>Wardrobes</figcaption></figure>
-      <figure class="g-item reveal" data-cat="laundry" data-lightbox data-caption="Washer and dryer"><img src="images/washer-dryer.jpg" alt="Washer and dryer" loading="lazy"><figcaption>Washer &amp; dryer</figcaption></figure>
-      <figure class="g-item reveal" data-cat="balcony" data-lightbox data-caption="Private balcony"><img src="images/balcony.jpg" alt="Private balcony" loading="lazy"><figcaption>Balcony</figcaption></figure>
-      <figure class="g-item reveal" data-cat="exterior" data-lightbox data-caption="Building exterior"><img src="images/building-exterior.jpg" alt="Building exterior" loading="lazy"><figcaption>Building exterior</figcaption></figure>
-      <figure class="g-item reveal" data-cat="exterior" data-lightbox data-caption="The Vision City estate"><img src="images/vision-city-aerial.jpg" alt="Aerial view of Vision City" loading="lazy"><figcaption>The estate</figcaption></figure>
-      <figure class="g-item reveal" data-cat="commercial" data-lightbox data-caption="Commercial frontage — placeholder"><img src="images/building-exterior.jpg" alt="Commercial area placeholder" loading="lazy"><figcaption>Commercial area · placeholder</figcaption></figure>
+      <figure class="g-item reveal" data-cat="living" data-lightbox data-caption="Living room with balcony access"><img src="images/Vision/living-room-1.jpg" alt="Living room with balcony access" loading="lazy"><figcaption>Living room</figcaption></figure>
+      <figure class="g-item reveal" data-cat="living" data-lightbox data-caption="Living room and entertainment wall"><img src="images/Vision/living-room-2.jpg" alt="Living room with entertainment unit" loading="lazy"><figcaption>Living room</figcaption></figure>
+      <figure class="g-item reveal" data-cat="bedroom" data-lightbox data-caption="Master bedroom"><img src="images/Vision/bedroom-main.jpg" alt="Master bedroom" loading="lazy"><figcaption>Bedroom</figcaption></figure>
+      <figure class="g-item reveal" data-cat="bedroom" data-lightbox data-caption="Fitted wardrobes and vanity"><img src="images/Vision/bedroom-wardrobe.jpg" alt="Fitted wardrobes and vanity" loading="lazy"><figcaption>Wardrobes</figcaption></figure>
+      <figure class="g-item reveal" data-cat="laundry" data-lightbox data-caption="Washer and dryer"><img src="images/Vision/washer-dryer.jpg" alt="Washer and dryer" loading="lazy"><figcaption>Washer &amp; dryer</figcaption></figure>
+      <figure class="g-item reveal" data-cat="balcony" data-lightbox data-caption="Private balcony"><img src="images/Vision/balcony.jpg" alt="Private balcony" loading="lazy"><figcaption>Balcony</figcaption></figure>
+      <figure class="g-item reveal" data-cat="exterior" data-lightbox data-caption="Building exterior"><img src="images/Vision/building-exterior.jpg" alt="Building exterior" loading="lazy"><figcaption>Building exterior</figcaption></figure>
+      <figure class="g-item reveal" data-cat="exterior" data-lightbox data-caption="The Vision City estate"><img src="images/Vision/vision-city-aerial.jpg" alt="Aerial view of Vision City" loading="lazy"><figcaption>The estate</figcaption></figure>
+      <figure class="g-item reveal" data-cat="commercial" data-lightbox data-caption="Commercial frontage — placeholder"><img src="images/Vision/building-exterior.jpg" alt="Commercial area placeholder" loading="lazy"><figcaption>Commercial area · placeholder</figcaption></figure>
     </div>
     <p class="placeholder-note" style="margin-top:2rem">Add kitchen, bathroom and commercial-area photos here as they become available — each image slots into a category above.</p>
   </div>
@@ -668,7 +804,7 @@ write("gallery.html", shell(
 about_body = '''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/vision-city-aerial.jpg" alt="Vision City estate, Kigali">
+  <img class="hero-bg" src="images/Vision/vision-city-aerial.jpg" alt="Vision City estate, Kigali">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Our Story</span>
@@ -686,7 +822,7 @@ about_body = '''
       <p class="lead" style="margin:1rem 0 1.2rem">CFT is <strong>Cyabukombe Family Trading</strong> — a family-owned company providing quality furnished apartments and commercial rental spaces in Kigali, Rwanda.</p>
       <p style="color:var(--ink-60)">Our mixed-use property in Kimironko brings together comfortable homes for guests and residents with practical, secure spaces for businesses. We manage everything ourselves, which means when you stay or rent with CFT, you deal directly with the family that owns and cares for the property — no agents, no run-around, just honest hospitality.</p>
     </div>
-    <div class="img-frame reveal"><img src="images/building-exterior.jpg" alt="The CFT building in Kimironko" loading="lazy"></div>
+    <div class="img-frame reveal"><img src="images/Vision/building-exterior.jpg" alt="The CFT building in Kimironko" loading="lazy"></div>
   </div>
 </section>
 
@@ -727,7 +863,7 @@ write("about.html", shell(
 booking_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/bedroom-main.jpg" alt="Comfortable bedroom at CFT Apartments">
+  <img class="hero-bg" src="images/Vision/bedroom-main.jpg" alt="Comfortable bedroom at CFT Apartments">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Direct Booking</span>
@@ -752,6 +888,7 @@ booking_body = f'''
               <option value="">Choose a property…</option>
               <option>Luxury 3BR in Vision City</option>
               <option>Kimironko Garden Residence</option>
+              <option>Inganji Apartment</option>
               <option>Commercial Shop Space</option>
               <option>Not sure yet — advise me</option>
             </select></div>
@@ -766,7 +903,6 @@ booking_body = f'''
       <div class="form-success" role="status">Thank you for contacting CFT Apartments &amp; Shops. Your inquiry has been received. Our team will contact you shortly.</div>
       <div class="form-error" role="alert">Sorry, something went wrong sending your message. Please try again, or reach us directly on WhatsApp.</div>
     </div>
-    <p class="placeholder-note" style="margin-top:1.4rem">Note for site owner: this form currently shows a confirmation message only. Connect it to a form service (e.g. Formspree, Getform, Netlify Forms) or your email backend to receive submissions.</p>
   </div>
 </section>
 
