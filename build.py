@@ -168,9 +168,9 @@ home_body = f'''
     <div class="prop-grid">
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
+          <img src="images/kimironko-building.avif" alt="Exterior of the Inganji Apartment 19 building" loading="lazy"></div>
         <div class="prop-body">
-          <h3>Kimironko Garden Residence</h3>
+          <h3>Inganji Apartment 19</h3>
           <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
           <p>A warm, quiet one-bedroom apartment steps from Kimironko's markets and cafés — comfortable furnishings, equipped kitchen and balcony.</p>
           <div class="prop-actions">
@@ -258,7 +258,7 @@ write("index.html", shell(
 apts_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building">
+  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Inganji Apartment 19 building">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Our Residences</span>
@@ -268,14 +268,36 @@ apts_body = f'''
   </div>
 </section>
 
+<section class="tight">
+  <div class="wrap" style="max-width:640px">
+    <div class="section-head center reveal">
+      <span class="eyebrow center">Availability</span>
+      <h2>Rooms available now at Inganji Estate</h2>
+      <p class="lead" style="margin-top:.6rem">Furnished one-bedroom units in Kimironko, ready to move in.</p>
+    </div>
+    <div class="form-card reveal">
+      <ul class="info-list">
+        <li><span>Apartment 13</span><span>400,000 RWF / month</span></li>
+        <li><span>Apartment 14</span><span>350,000 RWF / month</span></li>
+        <li><span>Apartment 16</span><span>400,000 RWF / month</span></li>
+        <li><span>Apartment 18</span><span>350,000 RWF / month</span></li>
+        <li><span>Apartment 19</span><span>400,000 RWF / month</span></li>
+      </ul>
+      <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
+        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20one%20of%20the%20available%20Inganji%20apartments." target="_blank" rel="noopener" style="justify-content:center">WhatsApp to Inquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="prop-grid">
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
+          <img src="images/kimironko-building.avif" alt="Exterior of the Inganji Apartment 19 building" loading="lazy"></div>
         <div class="prop-body">
-          <h3>Kimironko Garden Residence</h3>
+          <h3>Inganji Apartment 19</h3>
           <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
           <p>A calm, comfortable one-bedroom apartment in the heart of Kimironko — quality furnishings, an equipped kitchen, living room and balcony, minutes from the famous Kimironko Market.</p>
           <div class="prop-actions">
@@ -326,9 +348,9 @@ apts_body = f'''
   <div class="wrap">
     <div class="section-head reveal"><span class="eyebrow">A Closer Look</span><h2>Inside the apartments</h2></div>
     <div class="gallery-grid">
-      <figure class="g-item reveal" data-lightbox data-caption="Living room"><img src="images/Vision/living-room-1.jpg" alt="Living room with balcony view" loading="lazy"><figcaption>Living room</figcaption></figure>
-      <figure class="g-item reveal" data-lightbox data-caption="Master bedroom"><img src="images/Vision/bedroom-main.jpg" alt="Master bedroom with king bed" loading="lazy"><figcaption>Master bedroom</figcaption></figure>
-      <figure class="g-item reveal" data-lightbox data-caption="Private balcony"><img src="images/Vision/balcony.jpg" alt="Private balcony with garden view" loading="lazy"><figcaption>Private balcony</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Living room — Inganji Apartment 16"><img src="images/ap16livingroom.avif" alt="Living room of Inganji Apartment 16" loading="lazy"><figcaption>Living room · Apt 16</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Living room and kitchen — Inganji Apartment 16"><img src="images/inganji-living-kitchen.jpg" alt="Living room and open kitchen of Inganji Apartment 16" loading="lazy"><figcaption>Living room &amp; kitchen · Apt 16</figcaption></figure>
+      <figure class="g-item reveal" data-lightbox data-caption="Kitchen and living room — Inganji Apartment 19"><img src="images/kimironko-kitchen-living-1.jpg" alt="Kitchen and living room of Inganji Apartment 19" loading="lazy"><figcaption>Kitchen &amp; living room · Apt 19</figcaption></figure>
     </div>
   </div>
 </section>
@@ -456,11 +478,11 @@ write("apartment-vision-city.html", shell(
 km_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building">
+  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Inganji Apartment 19 building">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Kimironko · Kigali</span>
-      <h1 class="page-hero-title">Kimironko Garden Residence</h1>
+      <h1 class="page-hero-title">Inganji Apartment 19</h1>
       <p class="page-hero-sub">A calm, fully furnished home in the heart of Kimironko.</p>
     </div>
   </div>
@@ -476,7 +498,7 @@ km_body = f'''
       </div>
 
       <div class="gallery-grid" style="margin-top:2.4rem">
-        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/kimironko-building.avif" alt="Exterior of the Inganji Apartment 19 building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Bedroom"><img src="images/kimironko-bedroom.avif" alt="Bedroom with single bed" loading="lazy"><figcaption>Bedroom</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Kitchen and living area"><img src="images/kimironko-kitchen-living-1.jpg" alt="Kitchen and living area" loading="lazy"><figcaption>Kitchen &amp; living room</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Kitchen and living area"><img src="images/kimironko-kitchen-living-2.jpg" alt="Kitchen and living area, alternate view" loading="lazy"><figcaption>Kitchen &amp; living room</figcaption></figure>
@@ -529,7 +551,7 @@ km_body = f'''
       <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
         <a class="btn btn-gold" href="booking.html" style="justify-content:center">Book Now</a>
         <a class="btn btn-ghost" href="{AIRBNB2}" target="_blank" rel="noopener" style="justify-content:center">View on Airbnb</a>
-        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20the%20Kimironko%20Garden%20Residence." target="_blank" rel="noopener" style="justify-content:center">WhatsApp Inquiry</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20Inganji%20Apartment%2019." target="_blank" rel="noopener" style="justify-content:center">WhatsApp Inquiry</a>
       </div>
     </aside>
   </div>
@@ -540,7 +562,7 @@ km_body = f'''
     <div class="section-head center reveal"><span class="eyebrow center">Inquiry</span><h2>Ask about this apartment</h2></div>
     <div class="form-card reveal">
       <form data-inquiry novalidate action="{FORMSPREE}" method="POST">
-        <input type="hidden" name="_subject" value="CFT website inquiry — Kimironko Garden Residence">
+        <input type="hidden" name="_subject" value="CFT website inquiry — Inganji Apartment 19">
         <div class="form-grid">
           <div class="field"><label for="k-name">Full Name</label><input id="k-name" name="name" type="text" required autocomplete="name"></div>
           <div class="field"><label for="k-phone">Phone / WhatsApp</label><input id="k-phone" name="phone" type="tel" required autocomplete="tel"></div>
@@ -559,7 +581,7 @@ km_body = f'''
 </section>
 </main>'''
 write("apartment-kimironko.html", shell(
-  "Kimironko Garden Residence | CFT Apartments & Shops",
+  "Inganji Apartment 19 | CFT Apartments & Shops",
   "Furnished one-bedroom apartment in Kimironko, Kigali — quiet, secure and minutes from Kimironko Market. Book directly with CFT.",
   "apartments", km_body))
 
@@ -887,7 +909,7 @@ booking_body = f'''
             <select id="b-prop" name="property" required>
               <option value="">Choose a property…</option>
               <option>Luxury 3BR in Vision City</option>
-              <option>Kimironko Garden Residence</option>
+              <option>Inganji Apartment 19</option>
               <option>Inganji Apartment 16</option>
               <option>Commercial Shop Space</option>
               <option>Not sure yet — advise me</option>
