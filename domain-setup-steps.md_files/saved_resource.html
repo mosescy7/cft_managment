@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0253)https://79579d91-3b9a-4070-b648-7e72a9aa8299.frame.claudeusercontent.com/_f/1783686176-635b/?__frame_t=x1gFEYWga1QLUNsCVrE2GhFw.5d69b89c-5da6-4ace-87ff-99e94891b772.d55ae74f-22b1-4d89-a9ef-68131188a529.1783932251&__frame_v=manifest.21ba44c2bfde1499.json -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- frame-runtime --><!--<base href="/_f/1783686176-635b/">--><base href="."><script>window.__FRAME_PREAMBLE={"capabilities":{"downloads":"downloads.DUzXFHNF.js","mcp":"mcp.Djj5DQjZ.js","self":"self.DqF_PxOe.js"},"transforms":"_transforms.DYk1Ltlh.js"}</script><script>(function(){"use strict";const X="modulepreload",Y=function(e){return"/"+e},Z={},U=function(t,n,u){let o=Promise.resolve();function i(f){const a=new Event("vite:preloadError",{cancelable:!0});if(a.payload=f,window.dispatchEvent(a),!a.defaultPrevented)throw f}return o.then(f=>{for(const a of f||[])a.status==="rejected"&&i(a.reason);return t().catch(i)})},D=["light","dark","system"];function $(e){if(e==null||typeof e!="object")return!1;const t=e.__frame_init;return t!=null&&typeof t=="object"}function q(e){if(e==null||typeof e!="object")return!1;const t=e.__frame_theme;if(t==null||typeof t!="object")return!1;const n=t.theme;return typeof n=="string"&&D.includes(n)}function M(e){if(window===top||e.type==="auxclick"&&e.button!==1)return;const t=e.composedPath?e.composedPath():[e.target];let n=null;for(let f=0;f<t.length;f++){const a=t[f];if(a&&a.matches&&a.matches("a[href],area[href]")){n=a;break}}if(!n&&e.target&&e.target.closest&&(n=e.target.closest("a[href],area[href]")),!n)return;const u=n.getAttribute("href");if(!u)return;let o,i;try{o=new URL(u,document.baseURI),i=new URL(document.baseURI).origin}catch{return}(o.protocol==="http:"||o.protocol==="https:")&&o.origin!==i&&(e.preventDefault(),parent.postMessage({__frame_nav:!0,url:o.href},"*"))}const L={};function y(e){if(window===top)return;const t=Date.now();t-(L[e]||0)<500||(L[e]=t,parent.postMessage({__frame_engaged:!0,kind:e},"*"))}const F=2e3,T=["wheel","touchstart","touchmove","keydown","pointerdown"];let k=0;function B(e){e.isTrusted&&(k=Date.now())}function z(){addEventListener("click",M,!0),addEventListener("auxclick",M,!0)}function W(){for(let e=0;e<T.length;e++)addEventListener(T[e],B,{capture:!0,passive:!0});addEventListener("scroll",e=>{e.isTrusted&&Date.now()-k<F&&y("scroll")},{capture:!0,passive:!0}),addEventListener("pointermove",e=>{e.isTrusted&&y("pointer")},{capture:!0,passive:!0}),addEventListener("click",e=>{e.isTrusted&&y("click")},{capture:!0,passive:!0})}function x(e,t,n){const u=[...t.values()].filter(o=>o.targets.some(i=>i.startsWith(e+".")));return{wrap(o,i){const f=`${e}.${o}`,a=u.filter(s=>s.targets.includes(f));return a.length===0?(...s)=>{try{return i(...s)}catch(d){return Promise.reject(d)}}:(...s)=>{let d=s;for(const c of a){const l=c.module.parameters;if(l)try{d=l(d)}catch{return Promise.reject({code:"transform_error",id:c.id,scope:e,message:"parameters transform failed"})}}let m;try{m=i(...d)}catch(c){m=Promise.reject(c)}return m.then(c=>{for(let l=a.length-1;l>=0;l--){const h=a[l],p=h.module.returns;if(p)try{c=p(c)}catch{return n({id:h.id,scope:e,leg:"returns"}),c}}return c},c=>{for(let l=a.length-1;l>=0;l--){const h=a[l],p=h.module.throws;if(p)try{c=p(c)}catch{return n({id:h.id,scope:e,leg:"throws"}),Promise.reject(c)}}return Promise.reject(c)})}}}}function H(e,t,n,u=()=>{}){const o=new Set(e.changes??[]),i=new Map;for(const f of o){const a=t[f];a&&i.set(f,a)}return{contract:e.contract,changes:o,flags:new Set(e.flags??[]),capabilities:e.capabilities??{},transforms:i,shellOrigin:n.shellOrigin,mount:n.mount,pipe:f=>x(f,i,u)}}(function(){const e=Object.defineProperty,t=globalThis,n=["RTCPeerConnection","webkitRTCPeerConnection","RTCDataChannel","RTCIceCandidate","RTCSessionDescription","RTCRtpSender","RTCRtpReceiver"];let u=0;for(let o=0;o<n.length;o++){const i=n[o];try{e(t,i,{value:void 0,writable:!1,configurable:!1})}catch{try{delete t[i]}catch{}try{e(t,i,{value:void 0,writable:!1,configurable:!0})}catch{}}typeof t[i]=="function"&&u++}if(u&&window!==top)try{parent.postMessage({__frame_rtc_lockdown_failed:u},"*")}catch{}})();const K=1e4,G=Object.freeze([...window.__FRAME_PREAMBLE?.origins??["https://claude.ai","https://preview.claude.ai"]]);function J(e){for(const t of G)if(t.endsWith(":*"))try{const n=new URL(e);if(`${n.protocol}//${n.hostname}:*`===t)return!0}catch{}else if(e===t)return!0;return!1}const w=Object.freeze({...window.__FRAME_PREAMBLE?.capabilities??{}}),E=window.__FRAME_PREAMBLE?.transforms,C=/^[\w.-]+\.js$/,V=/^[a-z][a-z0-9_-]{0,63}$/;let A=null,g=null;function P(e,t,n){try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!1,enumerable:!0})}catch{try{Object.defineProperty(e,t,{value:n,writable:!1,configurable:!0,enumerable:!0})}catch{}}}let R=!1;function N(e){const t=document.documentElement;e==="light"||e==="dark"?(t.dataset.theme=e,t.style.colorScheme=e,R=!0):R&&(delete t.dataset.theme,t.style.colorScheme="",R=!1)}const _=new Map;function Q(e,t){const n=_.get(e);if(!n)return;Object.assign(n.impl,t),n.impl.__settled=()=>Promise.reject({code:"capability_removed",message:`${e}: method not in this runtime`});const u=n.queue;n.queue=[];for(const o of u){const i=t[o.method];i?i(...o.args).then(o.resolve,o.reject):o.reject({code:"capability_removed",message:`${e}.${o.method} is not in this runtime`})}}function O(e,t){const n=_.get(e);if(!n)return;n.impl.__settled=()=>Promise.reject(t);const u=n.queue;n.queue=[];for(const o of u)o.reject(t)}const j=Object.getOwnPropertyDescriptor(window,"claude");if(window!==top&&!(j&&j.writable===!1)){z(),W();const e=j?.value??{};P(window,"claude",e);const t=s=>{const d={impl:Object.create(null),queue:[]};_.set(s,d);const m=new Proxy(d.impl,{get:(c,l)=>{if(typeof l=="string"&&!(l==="then"||l==="toJSON"||l==="valueOf"))return l==="toString"?Object.prototype.toString:(...h)=>{const p=c[l]??c.__settled;return p?p(...h):new Promise((b,S)=>{d.queue.push({method:l,args:h,resolve:b,reject:S})})}},set:()=>!1});P(e,s,m)};for(const s of Object.keys(w)){if(e[s]!==void 0){P(e,s,e[s]);continue}t(s)}let n=null,u=null,o=0;const i=s=>{s.source!==parent||!J(s.origin)||$(s.data)&&(n=s.data.__frame_init,g=s.origin,removeEventListener("message",i),clearTimeout(o),u?.())};addEventListener("message",i),parent.postMessage({__frame_connect:!0},"*");const f=new Promise(s=>{u=s,o=setTimeout(()=>{removeEventListener("message",i),s()},K)}),a=document.readyState==="loading"?new Promise(s=>document.addEventListener("DOMContentLoaded",()=>s(),{once:!0})):Promise.resolve();f.then(async()=>{if(!n||!g){for(const r of _.keys())O(r,{code:"not_granted",message:"frame initialization did not arrive - capability unavailable"});return}N(n.theme);const s=g;addEventListener("message",r=>{r.source!==parent||r.origin!==s||q(r.data)&&N(r.data.__frame_theme.theme)});const d=r=>U(()=>import("/_runtime/"+r),void 0),m=Object.keys(n.capabilities??{});for(const r of m)Object.hasOwn(w,r)||V.test(r)&&e[r]===void 0&&(t(r),O(r,{code:"capability_disabled",message:"capability not in this runtime generation"}));const c=m.filter(r=>Object.hasOwn(w,r)).map(r=>[r,w[r]]).filter(r=>typeof r[1]=="string"&&C.test(r[1])),[l,...h]=await Promise.allSettled([E&&C.test(E)?d(E):Promise.resolve({}),...c.map(([,r])=>d(r))]),p=g;A=H(n,l.status==="fulfilled"&&l.value?.TRANSFORMS||{},{shellOrigin:p,mount:Q},r=>parent.postMessage({__frame_cap_telemetry:r},p));const b=r=>parent.postMessage({__frame_cap_telemetry:{kind:"cap-load-error",cap:r}},p),S=A;h.forEach((r,v)=>{const I=c[v][0];if(r.status!=="fulfilled"){b(I);return}try{r.value?.install?.(S)}catch{b(I)}});for(const[r,v]of _)v.queue.length===0&&Object.keys(v.impl).length>0||O(r,{code:m.includes(r)?"capability_disabled":"not_granted",message:"capability not available in this session"});await a,parent.postMessage({__frame_ready:!0},g)})}})();</script><!-- /frame-runtime --><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body data-new-gr-c-s-check-loaded="14.1138.0" data-gr-ext-installed="">
+<style>:root{color-scheme:light}body{background:#fff;color:rgba(0,0,0,.8);max-width:720px;margin:0 auto;padding:32px;display:flex;flex-direction:column;gap:10px;font:14px/1.55 -apple-system,BlinkMacSystemFont,'SF Pro','Segoe UI',sans-serif;overflow-wrap:break-word}body>:first-child{margin-top:0}h1,h2,h3,h4,h5,h6{margin:6px 0 0;line-height:1.25;font-weight:600;text-wrap:balance}h1{font-size:1.35em}h2{font-size:1.15em;color:rgba(0,0,0,.6)}h3,h4,h5,h6{font-size:1em}p,ul,ol,blockquote,table,pre,hr{margin:0}strong{font-weight:600}a{color:hsl(210 100% 45%);text-decoration:none}a:hover{text-decoration:underline}ul,ol{display:flex;flex-direction:column;gap:6px;padding-left:22px}ul{list-style:disc}ol{list-style:decimal}:is(li,td,th)>*+:is(p,ul,ol,blockquote){margin-top:6px}blockquote{display:flex;flex-direction:column;gap:10px;border-left:2px solid rgba(0,0,0,.1);padding-left:10px;color:rgba(0,0,0,.6)}:not(pre)>code{background:rgba(0,0,0,.04);padding:1px 3px;border-radius:4px;font:.92em 'SF Mono',ui-monospace,Menlo,Consolas,monospace}a>code{background:none;color:inherit}pre{background:rgba(0,0,0,.04);padding:10px 12px;border-radius:6px;overflow-x:auto;font:12px/1.5 'SF Mono',ui-monospace,Menlo,Consolas,monospace;margin-block:4px}pre code{background:none;padding:0;font:inherit}table{width:100%;border-collapse:separate;border-spacing:2px;font:inherit}th,td{padding:6px 8px;border-radius:3px;text-align:left;vertical-align:top}th{background:rgba(0,0,0,.06);font-weight:600}td{background:rgba(0,0,0,.04)}:is(th,td) :not(pre)>code{background:transparent}hr{border:0;border-top:1px solid rgba(0,0,0,.16);margin-block:10px}img{max-width:100%;height:auto;border-radius:4px}</style>
+<title>Going live on cft.rw — full checklist</title>
+
+<h1>Getting the site live at cft.rw</h1>
+<h3>From today's state (GitHub Pages at mosescy7.github.io/cft_managment/) to a working cft.rw</h3>
+<hr>
+<h2>Phase 1 — Register the domain</h2>
+<ol>
+<li>Go to RICTA's accredited registrar list: <strong><a href="https://www.ricta.org.rw/accredited-registrars/">https://www.ricta.org.rw/accredited-registrars/</a></strong></li>
+<li>Pick one and search availability for <strong><code>cft.rw</code></strong>.</li>
+<li>If available, register it — no residency/citizenship requirement, registration is usually done within minutes of payment. Register for at least 1 year (max 5 years available).</li>
+<li>Keep the registrar login details — you'll need to log back in for Phase 3 (DNS).</li>
+</ol>
+<p><em>(If <code>cft.rw</code> turns out to be taken, fall back to <code>cftapartments.rw</code> or <code>cftapartments.com</code> — everything below works identically for any domain, just substitute it in.)</em></p>
+<hr>
+<h2>Phase 2 — Tell GitHub Pages about the domain</h2>
+<p>You've already started this: repo → <strong>Settings → Pages → Custom domain</strong>.</p>
+<ol start="5">
+<li>Type <code>cft.rw</code> in that field and click <strong>Save</strong>.<ul>
+<li>This is safe to do even before DNS is configured — it just creates a <code>CNAME</code> file in the repo root telling GitHub "serve this site for cft.rw."</li>
+<li>GitHub will likely show a <strong>"DNS check unsuccessful"</strong> warning right after saving — expected at this stage, ignore it until Phase 3 is done.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>Phase 3 — Point the domain's DNS at GitHub</h2>
+<p>Log into the registrar from Phase 1, find its DNS management panel, and add these records:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Host / Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>@ (or blank/root)</td>
+<td>185.199.108.153</td>
+</tr>
+<tr>
+<td>A</td>
+<td>@ (or blank/root)</td>
+<td>185.199.109.153</td>
+</tr>
+<tr>
+<td>A</td>
+<td>@ (or blank/root)</td>
+<td>185.199.110.153</td>
+</tr>
+<tr>
+<td>A</td>
+<td>@ (or blank/root)</td>
+<td>185.199.111.153</td>
+</tr>
+<tr>
+<td>CNAME</td>
+<td>www</td>
+<td>mosescy7.github.io</td>
+</tr>
+</tbody></table>
+<ul>
+<li>The four <strong>A records</strong> make <code>cft.rw</code> (no "www") work.</li>
+<li>The <strong>CNAME</strong> makes <code>www.cft.rw</code> redirect to the same site.</li>
+<li>Remove/replace any existing "parking page" A or CNAME records the registrar auto-added when you registered — they'll conflict with these.</li>
+</ul>
+<hr>
+<h2>Phase 4 — Wait, verify, enable HTTPS</h2>
+<ol start="6">
+<li>DNS changes typically take a few minutes to a few hours to propagate; occasionally up to 24-48h.</li>
+<li>Once propagated, go back to <strong>Settings → Pages</strong> in the repo — the "DNS check unsuccessful" warning should clear on its own.</li>
+<li>Tick <strong>"Enforce HTTPS"</strong> once it's selectable (GitHub auto-issues a free SSL certificate at this point — this can take up to a few hours after DNS clears).</li>
+<li>Test it: visit <code>https://cft.rw</code> and <code>https://www.cft.rw</code> — both should load the site securely.</li>
+</ol>
+<hr>
+<h2>Phase 5 — Cleanup after it's live</h2>
+<p>Nothing in the site's code needs to change — all internal links are relative, so the domain swap is transparent to the HTML/CSS. Just a few loose ends elsewhere:</p>
+<ul>
+<li><strong>Google Business Profile</strong> — update the website field from the <code>github.io</code> link to <code>https://cft.rw</code>.</li>
+<li><strong>Google Ads campaign</strong> (if you went ahead with one) — update the final URL to <code>https://cft.rw</code>.</li>
+<li><strong>README.md</strong> — line 44 currently says <code>https://mosescy7.github.io/cft_managment/index.html</code>; update it to the new domain (cosmetic, low priority — happy to do this one whenever you want).</li>
+<li><strong>Email</strong> — if you set up Google Workspace/Zoho on this same domain, that's independent of these DNS records (different record types: MX, not A/CNAME) — don't let one setup overwrite the other's DNS entries.</li>
+</ul>
+<hr>
+<h3>Quick summary of what's already done vs. what's left</h3>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Site built and hosted on GitHub Pages</td>
+<td>✅ Done</td>
+</tr>
+<tr>
+<td>Domain chosen (cft.rw)</td>
+<td>✅ Decided</td>
+</tr>
+<tr>
+<td>Domain registered</td>
+<td>⬜ Your action, Phase 1</td>
+</tr>
+<tr>
+<td>GitHub told about the custom domain</td>
+<td>⬜ Your action, Phase 2 (click Save)</td>
+</tr>
+<tr>
+<td>DNS records added at registrar</td>
+<td>⬜ Your action, Phase 3</td>
+</tr>
+<tr>
+<td>HTTPS enforced on custom domain</td>
+<td>⬜ Happens automatically after Phase 3</td>
+</tr>
+</tbody></table>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
