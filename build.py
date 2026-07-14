@@ -167,19 +167,6 @@ home_body = f'''
     </div>
     <div class="prop-grid">
       <article class="prop-card reveal">
-        <div class="prop-media"><span class="badge">Vision City</span>
-          <img src="images/Vision/living-room-2.jpg" alt="Living room of the Luxury 3BR apartment in Vision City" loading="lazy"></div>
-        <div class="prop-body">
-          <h3>Luxury 3BR in Vision City</h3>
-          <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
-          <p>A fully furnished three-bedroom apartment in Kigali's premier gated community — Wi-Fi, washer &amp; dryer, private balconies and free parking.</p>
-          <div class="prop-actions">
-            <a class="btn btn-green" href="apartment-vision-city.html">View Apartment</a>
-            <a class="btn btn-ghost" href="{AIRBNB1}" target="_blank" rel="noopener">View on Airbnb</a>
-          </div>
-        </div>
-      </article>
-      <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
           <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
         <div class="prop-body">
@@ -194,14 +181,27 @@ home_body = f'''
       </article>
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"></div>
+          <img src="images/ap16livingroom.avif" alt="Living room of Inganji Apartment 16" loading="lazy"></div>
         <div class="prop-body">
-          <h3>Inganji Apartment</h3>
+          <h3>Inganji Apartment 16</h3>
           <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
           <p>A cosy, fully furnished one-bedroom apartment in Kimironko — living room, equipped kitchen and private balcony.</p>
           <div class="prop-actions">
             <a class="btn btn-green" href="apartment-inganji.html">View Apartment</a>
             <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener">View on Airbnb</a>
+          </div>
+        </div>
+      </article>
+      <article class="prop-card reveal">
+        <div class="prop-media"><span class="badge">Vision City</span>
+          <img src="images/Vision/living-room-2.jpg" alt="Living room of the Luxury 3BR apartment in Vision City" loading="lazy"></div>
+        <div class="prop-body">
+          <h3>Luxury 3BR in Vision City</h3>
+          <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
+          <p>A fully furnished three-bedroom apartment in Kigali's premier gated community — Wi-Fi, washer &amp; dryer, private balconies and free parking.</p>
+          <div class="prop-actions">
+            <a class="btn btn-green" href="apartment-vision-city.html">View Apartment</a>
+            <a class="btn btn-ghost" href="{AIRBNB1}" target="_blank" rel="noopener">View on Airbnb</a>
           </div>
         </div>
       </article>
@@ -258,7 +258,7 @@ write("index.html", shell(
 apts_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/Vision/living-room-1.jpg" alt="Furnished living room at CFT Apartments">
+  <img class="hero-bg" src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Our Residences</span>
@@ -271,24 +271,6 @@ apts_body = f'''
 <section>
   <div class="wrap">
     <div class="prop-grid">
-      <article class="prop-card reveal">
-        <div class="prop-media"><span class="badge">Vision City · New</span>
-          <img src="images/Vision/living-room-2.jpg" alt="Living room of Luxury 3BR in Vision City" loading="lazy"></div>
-        <div class="prop-body">
-          <h3>Luxury 3BR in Vision City</h3>
-          <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
-          <p>Comfort and style in Kigali's premier gated community. High-speed Wi-Fi, fully equipped kitchen, private balconies, washer &amp; dryer, smart-lock self check-in and free parking.</p>
-          <ul class="amenity-grid" style="grid-template-columns:1fr 1fr;font-size:.92rem">
-            <li>Kitchen</li><li>Wi-Fi</li><li>Free parking</li><li>Smart TV</li><li>Washer &amp; dryer</li><li>Balcony</li><li>24/7 security</li><li>Housekeeping (optional)</li>
-          </ul>
-          <div class="prop-actions">
-            <a class="btn btn-green" href="apartment-vision-city.html">Availability &amp; Details</a>
-            <a class="btn btn-gold" href="booking.html">Book Now</a>
-            <a class="btn btn-ghost" href="{AIRBNB1}" target="_blank" rel="noopener">View on Airbnb</a>
-          </div>
-        </div>
-      </article>
-
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
           <img src="images/kimironko-building.avif" alt="Exterior of the Kimironko Garden Residence building" loading="lazy"></div>
@@ -306,15 +288,33 @@ apts_body = f'''
 
       <article class="prop-card reveal">
         <div class="prop-media"><span class="badge">Kimironko</span>
-          <img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"></div>
+          <img src="images/ap16livingroom.avif" alt="Living room of Inganji Apartment 16" loading="lazy"></div>
         <div class="prop-body">
-          <h3>Inganji Apartment</h3>
+          <h3>Inganji Apartment 16</h3>
           <div class="prop-stats"><span class="stat">2 guests</span><span class="stat">1 bedroom</span><span class="stat">1 bed</span><span class="stat">1 bath</span></div>
           <p>A cosy, fully furnished one-bedroom apartment in Kimironko — living room, equipped kitchen and private balcony.</p>
           <div class="prop-actions">
             <a class="btn btn-green" href="apartment-inganji.html">Availability &amp; Details</a>
             <a class="btn btn-gold" href="booking.html">Book Now</a>
             <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener">View on Airbnb</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop-card reveal">
+        <div class="prop-media"><span class="badge">Vision City · New</span>
+          <img src="images/Vision/living-room-2.jpg" alt="Living room of Luxury 3BR in Vision City" loading="lazy"></div>
+        <div class="prop-body">
+          <h3>Luxury 3BR in Vision City</h3>
+          <div class="prop-stats"><span class="stat">6 guests</span><span class="stat">3 bedrooms</span><span class="stat">3 beds</span><span class="stat">2.5 baths</span></div>
+          <p>Comfort and style in Kigali's premier gated community. High-speed Wi-Fi, fully equipped kitchen, private balconies, washer &amp; dryer, smart-lock self check-in and free parking.</p>
+          <ul class="amenity-grid" style="grid-template-columns:1fr 1fr;font-size:.92rem">
+            <li>Kitchen</li><li>Wi-Fi</li><li>Free parking</li><li>Smart TV</li><li>Washer &amp; dryer</li><li>Balcony</li><li>24/7 security</li><li>Housekeeping (optional)</li>
+          </ul>
+          <div class="prop-actions">
+            <a class="btn btn-green" href="apartment-vision-city.html">Availability &amp; Details</a>
+            <a class="btn btn-gold" href="booking.html">Book Now</a>
+            <a class="btn btn-ghost" href="{AIRBNB1}" target="_blank" rel="noopener">View on Airbnb</a>
           </div>
         </div>
       </article>
@@ -567,11 +567,11 @@ write("apartment-kimironko.html", shell(
 ig_body = f'''
 <main>
 <section class="hero compact" style="padding:0">
-  <img class="hero-bg" src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building">
+  <img class="hero-bg" src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment 16 building">
   <div class="wrap hero-inner">
     <div class="frame">
       <span class="eyebrow on-dark">Kimironko · Kigali</span>
-      <h1 class="page-hero-title">Inganji Apartment</h1>
+      <h1 class="page-hero-title">Inganji Apartment 16</h1>
       <p class="page-hero-sub">A cosy, fully furnished one-bedroom home in Kimironko.</p>
     </div>
   </div>
@@ -587,7 +587,7 @@ ig_body = f'''
       </div>
 
       <div class="gallery-grid" style="margin-top:2.4rem">
-        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
+        <figure class="g-item reveal" data-lightbox data-caption="Building exterior"><img src="images/inganji-building.jpg" alt="Exterior of the Inganji Apartment 16 building" loading="lazy"><figcaption>Building exterior</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Living room and kitchen"><img src="images/inganji-living-kitchen.jpg" alt="Furnished living room with open kitchen" loading="lazy"><figcaption>Living room &amp; kitchen</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Bedroom"><img src="images/inganji-bedroom.avif" alt="Bedroom with double bed" loading="lazy"><figcaption>Bedroom</figcaption></figure>
         <figure class="g-item reveal" data-lightbox data-caption="Kitchen"><img src="images/inganji-kitchen.jpg" alt="Kitchen with stove and cabinets" loading="lazy"><figcaption>Kitchen</figcaption></figure>
@@ -638,7 +638,7 @@ ig_body = f'''
       <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
         <a class="btn btn-gold" href="booking.html" style="justify-content:center">Book Now</a>
         <a class="btn btn-ghost" href="{AIRBNB3}" target="_blank" rel="noopener" style="justify-content:center">View on Airbnb</a>
-        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20the%20Inganji%20Apartment." target="_blank" rel="noopener" style="justify-content:center">WhatsApp Inquiry</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20the%20Inganji%20Apartment%2016." target="_blank" rel="noopener" style="justify-content:center">WhatsApp Inquiry</a>
       </div>
     </aside>
   </div>
@@ -649,7 +649,7 @@ ig_body = f'''
     <div class="section-head center reveal"><span class="eyebrow center">Inquiry</span><h2>Ask about this apartment</h2></div>
     <div class="form-card reveal">
       <form data-inquiry novalidate action="{FORMSPREE}" method="POST">
-        <input type="hidden" name="_subject" value="CFT website inquiry — Inganji Apartment">
+        <input type="hidden" name="_subject" value="CFT website inquiry — Inganji Apartment 16">
         <div class="form-grid">
           <div class="field"><label for="ig-name">Full Name</label><input id="ig-name" name="name" type="text" required autocomplete="name"></div>
           <div class="field"><label for="ig-phone">Phone / WhatsApp</label><input id="ig-phone" name="phone" type="tel" required autocomplete="tel"></div>
@@ -668,7 +668,7 @@ ig_body = f'''
 </section>
 </main>'''
 write("apartment-inganji.html", shell(
-  "Inganji Apartment | CFT Apartments & Shops",
+  "Inganji Apartment 16 | CFT Apartments & Shops",
   "Furnished one-bedroom apartment in Kimironko, Kigali — living room, equipped kitchen and balcony. Book directly with CFT.",
   "apartments", ig_body))
 
@@ -888,7 +888,7 @@ booking_body = f'''
               <option value="">Choose a property…</option>
               <option>Luxury 3BR in Vision City</option>
               <option>Kimironko Garden Residence</option>
-              <option>Inganji Apartment</option>
+              <option>Inganji Apartment 16</option>
               <option>Commercial Shop Space</option>
               <option>Not sure yet — advise me</option>
             </select></div>
