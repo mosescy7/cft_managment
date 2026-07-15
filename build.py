@@ -290,7 +290,6 @@ apts_body = f'''
     </div>
   </div>
 </section>
-#---------------------------------------------------------------- aibnb section and view of appartments
 
 <section>
   <div class="wrap">
