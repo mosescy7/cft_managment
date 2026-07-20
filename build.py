@@ -279,11 +279,11 @@ apts_body = f'''
     </div>
     <div class="form-card reveal">
       <ul class="info-list">
-        <li><span>Apartment 13</span><span>400,000 RWF / month</span></li>
-        <li><span>Apartment 14</span><span>350,000 RWF / month</span></li>
-        <li><span>Apartment 16</span><span>400,000 RWF / month</span></li>
-        <li><span>Apartment 18</span><span>350,000 RWF / month</span></li>
-        <li><span>Apartment 19</span><span>400,000 RWF / month</span></li>
+        <li><span>Apartment 13</span><span>420,000 RWF / month</span></li>
+        <li><span>Apartment 14</span><span>370,000 RWF / month</span></li>
+        <li><span>Apartment 16</span><span>420,000 RWF / month</span></li>
+        <li><span>Apartment 18</span><span>370,000 RWF / month</span></li>
+        <li><span>Apartment 19</span><span>420,000 RWF / month</span></li>
       </ul>
       <p style="font-size:.85rem;color:var(--ink-60);margin-top:1rem">Rent excludes utilities — water &amp; electricity billed separately at 20,000 RWF/month per unit.</p>
       <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
