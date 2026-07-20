@@ -280,7 +280,7 @@ apts_body = f'''
     <div class="form-card reveal">
       <ul class="info-list">
         <li><span>Apartment 13</span><span>420,000 RWF / month</span></li>
-        <li><span>Apartment 14</span><span>370,000 RWF / month</span></li>
+      
         <li><span>Apartment 16</span><span>420,000 RWF / month</span></li>
         <li><span>Apartment 18</span><span>370,000 RWF / month</span></li>
         <li><span>Apartment 19</span><span>420,000 RWF / month</span></li>
