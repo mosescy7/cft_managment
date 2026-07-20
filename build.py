@@ -275,7 +275,7 @@ apts_body = f'''
     <div class="section-head center reveal">
       <span class="eyebrow center">Availability</span>
       <h2>Rooms available now at Inganji Estate</h2>
-      <p class="lead" style="margin-top:.6rem">Furnished one-bedroom units in Kimironko, ready to move in.</p>
+      <p class="lead" style="margin-top:.6rem">Furnished one-bedroom units in Kimironko, ready to move in at 7 KG 168 ST.</p>
     </div>
     <div class="form-card reveal">
       <ul class="info-list">
