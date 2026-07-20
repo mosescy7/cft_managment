@@ -285,7 +285,7 @@ apts_body = f'''
         <li><span>Apartment 18</span><span>370,000 RWF / month</span></li>
         <li><span>Apartment 19</span><span>420,000 RWF / month</span></li>
       </ul>
-      <p style="font-size:.85rem;color:var(--ink-60);margin-top:1rem">Rent excludes utilities — water &amp; electricity billed separately at 20,000 RWF/month per unit.</p>
+      <p style="font-size:.85rem;color:var(--ink-60);margin-top:1rem">Rent includes utilities — water &amp; electricity billed separately at 20,000 RWF/month per unit.</p>
       <div style="display:flex;flex-direction:column;gap:.7rem;margin-top:1.4rem">
         <a class="btn btn-whatsapp" href="https://wa.me/{WA}?text=Hello%2C%20I%27m%20interested%20in%20one%20of%20the%20available%20Inganji%20apartments." target="_blank" rel="noopener" style="justify-content:center">WhatsApp to Inquire</a>
       </div>
