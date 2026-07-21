@@ -42,3 +42,5 @@ This is a static site — any static host (GitHub Pages, Netlify, Vercel, etc.) 
 ## Final Weblink
 
 https://mosescy7.github.io/cft_managment/index.html
+live on domain
+http://cftproperty.rw/
